@@ -75,4 +75,4 @@ Review this repository's public release readiness. Return a 100-point score with
 
 - This repository contains a Codex skill, not a full Codex plugin.
 - The skill intentionally does not edit `AGENTS.md` or project rules during review.
-- No license has been selected yet.
+- MIT licensed.

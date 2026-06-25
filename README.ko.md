@@ -73,4 +73,4 @@ Use $repo-quality-rubric to review this repository and report a weighted 100-poi
 
 - 이 저장소는 Codex 스킬을 담고 있으며, 정식 Codex 플러그인은 아닙니다.
 - 검토 중 `AGENTS.md`나 프로젝트 규칙 파일을 자동으로 수정하지 않도록 설계했습니다.
-- 아직 라이선스는 선택하지 않았습니다.
+- MIT 라이선스를 사용합니다.
