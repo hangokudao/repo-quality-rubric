@@ -4,7 +4,7 @@
 
 A Codex skill for evidence-backed repository quality reviews.
 
-Use this skill when you want Codex to review a repository, CLI, package, frontend app, documentation set, public release, or AI-agent workflow with a visible 100-point score instead of a vague impression.
+Use this skill when you want Codex to review a repository, CLI, package, frontend app, documentation set, public release, or AI-agent workflow and return a weighted 100-point score with concrete evidence.
 
 The skill asks Codex to:
 
@@ -68,7 +68,7 @@ Use $repo-quality-rubric to review this repository and report a weighted 100-poi
 You can also ask naturally:
 
 ```text
-Review this repo for public release readiness. Score it out of 100 and show the evidence.
+Review this repository's public release readiness. Return a 100-point score with criteria and evidence.
 ```
 
 ## Notes

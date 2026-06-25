@@ -1,11 +1,11 @@
 ---
 name: repo-quality-rubric
-description: Assess repository or project quality/readiness with a weighted 100-point rubric and concrete evidence. Use when asked to score, audit, review, grade, benchmark, quality-check, or readiness-check a repo, CLI, package, library, frontend app, documentation set, public release, or AI-agent workflow; especially when the user wants criteria, evidence, must-fix issues, and unverified areas rather than a vibe-based score.
+description: "Assess repository or project quality/readiness with a weighted 100-point rubric and concrete evidence. Use when asked to score, audit, review, grade, benchmark, quality-check, readiness-check, or evaluate release readiness for a repo, CLI, package, library, frontend app, documentation set, public release, or AI-agent workflow. Also use for Korean-language requests about repository quality checks, public release readiness, 100-point criteria, evidence, or weighted score breakdowns."
 ---
 
 # Repo Quality Rubric
 
-Use this skill to produce evidence-backed quality/readiness reviews. The goal is not a generic code review; the goal is a visible score breakdown that explains why a repo is, for example, 76/100 instead of "seems good."
+Use this skill to produce evidence-backed quality/readiness reviews. The goal is not a generic code review; the goal is a visible score breakdown with concrete evidence for each score.
 
 ## Core Rules
 
