@@ -66,7 +66,7 @@ Use $repo-quality-rubric to review this repository and report a weighted 100-poi
 자연어로 이렇게 말해도 됩니다.
 
 ```text
-이 저장소의 공개 릴리스 준비도를 검토해줘. 100점 기준으로 항목별 점수와 근거를 보여줘.
+이 저장소를 공개해도 될지 점검해줘. 항목별로 몇 점인지, 왜 그 점수인지 근거까지 보여줘.
 ```
 
 ## 참고
