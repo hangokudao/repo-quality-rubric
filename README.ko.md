@@ -57,7 +57,7 @@ skills/repo-quality-rubric/
 
 ## 사용법
 
-Codex에 스킬을 설치하거나 복사한 뒤 이렇게 부르면 됩니다.
+Codex에 스킬을 설치하거나 복사한 뒤 이렇게 호출하면 됩니다.
 
 ```text
 Use $repo-quality-rubric to review this repository and report a weighted 100-point score with evidence.
