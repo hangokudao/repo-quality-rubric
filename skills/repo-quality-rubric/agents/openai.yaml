@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repo Quality Rubric"
+  short_description: "Score repo quality with weighted evidence-based rubrics."
+  default_prompt: "Use $repo-quality-rubric to review this repository and report a weighted 100-point score with evidence."

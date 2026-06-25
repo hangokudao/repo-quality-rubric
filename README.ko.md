@@ -1,0 +1,76 @@
+# Repo Quality Rubric
+
+[English](README.md)
+
+근거 기반 repo 품질검증을 위한 Codex 스킬입니다.
+
+이 스킬은 repo, CLI, 패키지, 프론트엔드 앱, 문서 세트, 공개 릴리스, AI-agent workflow를 리뷰할 때 "느낌상 76점"이 아니라 **100점 기준의 항목별 점수와 증거**를 남기도록 만듭니다.
+
+스킬이 Codex에게 시키는 일은 간단합니다.
+
+- 프로젝트 유형을 먼저 분류하기
+- 유형에 맞는 가중치 루브릭 고르기
+- 파일, 테스트, 빌드, 패키지 결과 같은 실제 증거 확인하기
+- 반드시 고칠 문제와 개선하면 좋은 문제를 분리하기
+- 확인하지 못한 영역을 따로 적기
+
+## 결과물 예시
+
+```md
+# Repo Quality Review
+
+Total Score: 86/100
+
+## Score Breakdown
+
+| Criterion | Weight | Score | Evidence |
+|---|---:|---:|---|
+| User-facing quality | 20 | 16 | Generated examples are clear, but one README link is stale |
+
+## Must Fix
+
+1. ...
+
+## Not Verified
+
+- ...
+```
+
+## 스킬 위치
+
+설치 대상 스킬은 여기에 있습니다.
+
+```text
+skills/repo-quality-rubric/
+```
+
+## 포함된 기준
+
+- 기본 repo readiness
+- 코드 리뷰 품질
+- CLI/패키지 릴리스 품질
+- 공개 repo 준비도
+- 프론트엔드/제품 디자인 리뷰
+- 접근성
+- 보안
+- AI-agent workflow 평가
+
+## 사용법
+
+Codex에 스킬을 설치하거나 복사한 뒤 이렇게 부르면 됩니다.
+
+```text
+Use $repo-quality-rubric to review this repository and report a weighted 100-point score with evidence.
+```
+
+자연어로 이렇게 말해도 됩니다.
+
+```text
+이 repo 공개 릴리스 준비도 품질검증해줘. 100점 기준으로 근거도 보여줘.
+```
+
+## 참고
+
+- 이 repo는 Codex 스킬을 담고 있으며, 완전한 Codex 플러그인은 아닙니다.
+- 리뷰 중 `AGENTS.md`나 프로젝트 규칙 파일을 자동으로 수정하지 않도록 설계했습니다.
+- 아직 라이선스는 선택하지 않았습니다.
